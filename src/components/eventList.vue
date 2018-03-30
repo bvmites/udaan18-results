@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <md-card class="md-primary" md-with-hover v-for="event in events" @click.native="changeRoute(event.id)">
       <md-card-media-cover>
         <md-card-media>
@@ -33,10 +33,14 @@ export default {
 </script>
 
 <style scoped>
+  .container {
+    text-align: center;
+  }
   .md-card {
+    margin: 20px;
+    display: inline-block;
     background-color: cornflowerblue;
     color: white;
-    margin: 10px auto;
-    max-width: 800px;
+    max-width: 300px;
   }
 </style>

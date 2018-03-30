@@ -41,62 +41,328 @@
     {
       "name": "Hard Wizard",
       "id": "itcpe1",
-      "imgUrl": "./src/assets/cpit/hard_wizard"
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cpit/hard_wizard.png"
     },
     {
       "name": "Designifico",
       "id": "itcpe2",
-      "imgUrl": "./src/assets/cpit/designifico"
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cpit/designifico.png"
     },
     {
       "name": "CodePanther",
       "id": "itcpe3",
-      "imgUrl": "./src/assets/cpit/code_panther"
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cpit/code_panther.png"
     },
     {
       "name": "GeekWebber",
       "id": "itcpe4",
-      "imgUrl": "./src/assets/cpit/geek_webber"
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cpit/geek_webber.png"
     },
     {
       "name": "Auct-O-Pus",
       "id": "itcpe5",
-      "imgUrl": "./src/assets/cpit/auct-o-pus"
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cpit/auct-o-pus.png"
     },
     {
       "name": "HackerEarth",
       "id": "itcpe6",
-      "imgUrl": "./src/assets/cpit/hacker_earth"
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cpit/hacker_earth.png"
     }
   ],
   "el": [
     {
       "name": "voltorb",
-      "id": "ele1"
+      "id": "ele1",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/ecel/voltorb.png"
     },
     {
       "name": "Dots & Dash",
-      "id": "ele2"
+      "id": "ele2",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/ecel/dots_n_dash.png"
     },
     {
       "name": "Electro-Picaso",
-      "id": "ele3"
+      "id": "ele3",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/ecel/electro_picaso.png"
     },
     {
       "name": "Techno Manager",
-      "id": "ele4"
+      "id": "ele4",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/ecel/techno_manager.png"
     },
     {
       "name": "Codestorm",
-      "id": "ele5"
+      "id": "ele5",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/ecel/codestorm.png"
     },
     {
       "name": "Roborash",
-      "id": "ele6"
+      "id": "ele6",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/ecel/roborash.png"
     },
     {
       "name": "Botball",
-      "id": "ele7"
+      "id": "ele7",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/ecel/botball.png"
+    }
+  ],
+  "ee" : [
+    {
+      "name": "Automatico",
+      "id": "eee1",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/electrical/automatico.png"
+    },
+    {
+      "name": "Bomb Diggy Diggy Boom",
+      "id": "eee2",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/electrical/bomb_diggy_diggy_boom.png"
+    },
+    {
+      "name": "Source D'Energie",
+      "id": "eee3",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/electrical/source_denergie.png"
+    },
+    {
+      "name": "Circuit Mania",
+      "id": "eee4",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/electrical/circuit_mania.png"
+    }
+  ],
+  "mech" : [
+    {
+      "name": "AutoFrenzy",
+      "id": "meche1",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/mech/autofrenzy.png"
+    },
+    {
+      "name": "Mind's Eye",
+      "id": "meche2",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/mech/minds_eye.png"
+    },
+    {
+      "name": "Hydrobounze",
+      "id": "meche3",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/mech/hydrobounze.png"
+    },
+    {
+      "name": "Contraption",
+      "id": "meche4",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/mech/contraption.png"
+    },
+    {
+      "name": "Bid the Best",
+      "id": "meche5",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/mech/bid_the_best.png"
+    },
+    {
+      "name": "Bottle Rocketry",
+      "id": "meche6",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/mech/bottle_rocketry.png"
+    },
+    {
+      "name": "The Cage",
+      "id": "meche7",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/mech/the_cage.png"
+    }
+  ],
+  "civil" : [
+    {
+      "name": "Geo Genius",
+      "id": "ce1",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/civil/geo_genius.png"
+    },
+    {
+      "name": "Green Canvas",
+      "id": "ce2",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/civil/green_canvas.png"
+    },
+    {
+      "name": "Hydro-De-Bridge",
+      "id": "ce3",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/civil/hydro_de_bridge.png"
+    },
+    {
+      "name": "Shake It Up!!!",
+      "id": "ce4",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/civil/shake_it_up.png"
+    },
+    {
+      "name": "Total Surveyor",
+      "id": "ce5",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/civil/total_surveyor.png"
+    }
+  ],
+  "th" : [
+    {
+      "name" : "Treasure Hunt",
+      "id": "the1",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/treasure_hunt/treasure_hunt.png"
+    }
+  ],
+  "girl" : [
+    {
+      "name" : "Fema Palooza",
+      "id": "girle01",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/girls/fema_palooza.png"
+    }
+  ],
+  "nt" : [
+    {
+      "name" : "Cricket Fantasy",
+      "id": "nte01",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/cricket_fantasy.png"
+    },
+    {
+      "name" : "Socioholic",
+      "id": "nte02",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/socioholic.png"
+    },
+    {
+      "name" : "Idiot Box",
+      "id": "nte03",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/idiot_box.png"
+    },
+    {
+      "name" : "Maphorlfe",
+      "id": "nte04",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/maphorlfe.png"
+    },
+    {
+      "name" : "F-R-I-E-N-D-S",
+      "id": "nte05",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/f_r_i_e_n_d_s.png"
+    },
+    {
+      "name" : "Takeshi's Castle",
+      "id": "nte06",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/takeshi_s_castle.png"
+    },
+    {
+      "name" : "Guru",
+      "id": "nte07",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/guru.png"
+    },
+    {
+      "name" : "MockStock",
+      "id": "nte08",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/mockstock.png"
+    },
+    {
+      "name" : "NFS MW",
+      "id": "nte09",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/nfs_mw.png"
+    },
+    {
+      "name" : "Sherlock in the City",
+      "id": "nte10",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/sherlock_in_the_city.png"
+    },
+    {
+      "name" : "Valar Morghulis",
+      "id": "nte11",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/valar_morghulis.png"
+    },
+    {
+      "name" : "Meme-O-Mania",
+      "id": "nte12",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/meme_o_mania.png"
+    },
+    {
+      "name" : "Are you A Binge-Watcher?",
+      "id": "nte13",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/are_you_a_binge_watcher.png"
+    },
+    {
+      "name" : "Mysterious Island",
+      "id": "nte14",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/mysterious_island.png"
+    },
+    {
+      "name" : "kSetrin",
+      "id": "nte15",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/ksetrin.png"
+    },
+    {
+      "name" : "BVM  MUN",
+      "id": "nte16",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/bvm_mun.png"
+    },
+    {
+      "name" : "Roadies",
+      "id": "nte17",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/roadies.png"
+    },
+    {
+      "name" : "Nonstop Nonsense",
+      "id": "nte18",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/nonstop_nonsense.png"
+    },
+    {
+      "name" : "Never Settle",
+      "id": "nte19",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/never_settle.png"
+    },
+    {
+      "name" : "Student of The Year",
+      "id": "nte20",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/student_of_the_year.png"
+    },
+    {
+      "name" : "Service Before Self",
+      "id": "nte21",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/service_before_self_ssb.png"
+    },
+    {
+      "name" : "Mind Play",
+      "id": "nte22",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/mind_play.png"
+    },
+    {
+      "name" : "The Final Detection",
+      "id": "nte23",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/the_final_detection.png"
+    },
+    {
+      "name" : "CS : GO",
+      "id": "nte24",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/cs_go.png"
+    },
+    {
+      "name" : "FIFA 18",
+      "id": "nte25",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/fifa18.png"
+    }
+  ],
+  "cultural": [
+    {
+      "name" : "Bolly Mix Bolly",
+      "id": "cu1",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cultural/bolly_mix_bolly.png"
+    },
+    {
+      "name" : "Antakshari",
+      "id": "cu2",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cultural/antakshari.png"
+    },
+    {
+      "name" : "Q-Riosity",
+      "id": "cu3",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cultural/q_riosity.png"
+    },
+    {
+      "name" : "Da Vinci",
+      "id": "cu4",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cultural/da_vinci.png"
+    },
+    {
+      "name" : "Envisage",
+      "id": "cu5",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cultural/envisage.png"
+    },
+    {
+      "name" : "Viewfinder 2018",
+      "id": "cu6",
+      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cultural/viewfinder_2018.png"
     }
   ]
 }

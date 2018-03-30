@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <md-card v-for="department in departments" @click.native="changeRoute(department.id)" md-with-hover>
       <md-card-media-cover>
         <md-card-media>
@@ -31,9 +31,13 @@ export default {
 }
 </script>
 <style scoped>
+  .container {
+    text-align: center;
+  }
   .md-card {
-    max-width: 800px;
-    margin: 10px auto;
+    display: inline-block;
+    max-width: 400px;
+    margin: 10px;
   }
   .md-card:hover {
     opacity: 0.5;
