@@ -13,6 +13,9 @@
       </md-toolbar>
 
       <md-list>
+        <md-list-item @click="goHome">
+          <span class="md-list-item-text">Home</span>
+        </md-list-item>
         <md-list-item v-for="department in departments" @click="changeRoute(department.id)">
           <span class="md-list-item-text">{{ department.name }}</span>
         </md-list-item>
@@ -35,6 +38,9 @@ export default {
   methods: {
     changeRoute: function(id) {
       this.$router.push("/eventList/" + id);
+    },
+    goHome: function() {
+      this.$router.push("/");
     }
   },
   created() {
