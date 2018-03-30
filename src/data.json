@@ -2,7 +2,7 @@
   "departments" : [
     {
       "name" : "Coder's Squad",
-      "id": "itcp"
+      "id": "cpit"
     },
     {
       "name" : "Sonic-A-Tronic",
@@ -37,31 +37,36 @@
       "id": "cultural"
     }
   ],
-  "itcp": [
+  "cpit": [
     {
       "name": "Hard Wizard",
-      "id": "itcpe1"
+      "id": "itcpe1",
+      "imgUrl": "./src/assets/cpit/hard_wizard"
     },
     {
       "name": "Designifico",
       "id": "itcpe2",
-      "description": "Clandestine for Future"
+      "imgUrl": "./src/assets/cpit/designifico"
     },
     {
       "name": "CodePanther",
-      "id": "itcpe3"
+      "id": "itcpe3",
+      "imgUrl": "./src/assets/cpit/code_panther"
     },
     {
       "name": "GeekWebber",
-      "id": "itcpe4"
+      "id": "itcpe4",
+      "imgUrl": "./src/assets/cpit/geek_webber"
     },
     {
       "name": "Auct-O-Pus",
-      "id": "itcpe5"
+      "id": "itcpe5",
+      "imgUrl": "./src/assets/cpit/auct-o-pus"
     },
     {
       "name": "HackerEarth",
-      "id": "itcpe6"
+      "id": "itcpe6",
+      "imgUrl": "./src/assets/cpit/hacker_earth"
     }
   ],
   "el": [

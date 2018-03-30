@@ -1,9 +1,14 @@
 <template>
   <div>
     <md-card class="md-primary" md-with-hover v-for="event in events" @click.native="changeRoute(event.id)">
-      <md-card-header>
-        <div class="md-title">{{ event.name }}</div>
-      </md-card-header>
+      <md-card-media-cover>
+        <md-card-media>
+          <img :src="event.imgUrl" alt="Event Image Url">
+        </md-card-media>
+        <md-card-header>
+          <div class="md-title">{{ event.name }}</div>
+        </md-card-header>
+      </md-card-media-cover>
     </md-card>
   </div>
 </template>
@@ -20,6 +25,9 @@ export default {
     changeRoute: function(id) {
       this.$router.push("/event/" + id);
     }
+  },
+  created() {
+    console.log(this.events);
   }
 }
 </script>
