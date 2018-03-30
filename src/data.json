@@ -1,0 +1,97 @@
+{
+  "departments" : [
+    {
+      "name" : "Coder's Squad",
+      "id": "itcp"
+    },
+    {
+      "name" : "Sonic-A-Tronic",
+      "id": "el"
+    },
+    {
+      "name" : "Dynamo Bombers",
+      "id": "ee"
+    },
+    {
+      "name" : "Mechanophiles",
+      "id": "mech"
+    },
+    {
+      "name" : "Infra-Maniacs",
+      "id": "civil"
+    },
+    {
+      "name" : "Treasure Hunt",
+      "id": "th"
+    },
+    {
+      "name" : "Fab Famina",
+      "id": "girl"
+    },
+    {
+      "name" : "Pandora Box",
+      "id": "nt"
+    },
+    {
+      "name" : "Mad House",
+      "id": "cultural"
+    }
+  ],
+  "itcp": [
+    {
+      "name": "Hard Wizard",
+      "id": "itcpe1"
+    },
+    {
+      "name": "Designifico",
+      "id": "itcpe2",
+      "description": "Clandestine for Future"
+    },
+    {
+      "name": "CodePanther",
+      "id": "itcpe3"
+    },
+    {
+      "name": "GeekWebber",
+      "id": "itcpe4"
+    },
+    {
+      "name": "Auct-O-Pus",
+      "id": "itcpe5"
+    },
+    {
+      "name": "HackerEarth",
+      "id": "itcpe6"
+    }
+  ],
+  "el": [
+    {
+      "name": "voltorb",
+      "id": "ele1"
+    },
+    {
+      "name": "Dots & Dash",
+      "id": "ele2"
+    },
+    {
+      "name": "Electro-Picaso",
+      "id": "ele3"
+    },
+    {
+      "name": "Techno Manager",
+      "id": "ele4"
+    },
+    {
+      "name": "Codestorm",
+      "id": "ele5"
+    },
+    {
+      "name": "Roborash",
+      "id": "ele6"
+    },
+    {
+      "name": "Botball",
+      "id": "ele7"
+    }
+  ]
+}
