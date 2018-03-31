@@ -1,6 +1,6 @@
 <template>
   <div class="container md-layout">
-    <md-card class="md-primary md-layout-item md-xsmall-size-33" md-with-hover v-for="event in events" @click.native="changeRoute(event.id)">
+    <md-card class="md-primary md-layout-item md-xsmall-size-45" md-with-hover v-for="event in events" @click.native="changeRoute(event.id)">
       <md-card-media-cover>
         <md-card-media>
           <img :src="event.imgUrl" alt="Event Image Url">
@@ -42,7 +42,5 @@ export default {
     display: inline-block;
     background-color: cornflowerblue;
     color: white;
-    min-width: 170px;
-    max-width: 190px;
   }
 </style>
