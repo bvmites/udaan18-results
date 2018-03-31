@@ -1,10 +1,10 @@
 <template>
   <div>
-    <md-toolbar class="md-primary">
+    <md-toolbar>
       <md-button class="md-icon-button" @click="showNavigation = true">
         <md-icon>menu</md-icon>
       </md-button>
-      <span class="md-title">Results</span>
+      <span class="md-title">Results - Udaan 2018</span>
     </md-toolbar>
 
     <md-drawer :md-active.sync="showNavigation">
@@ -42,13 +42,17 @@ export default {
     goHome: function() {
       this.$router.push("/");
     }
-  },
-  created() {
-    console.log(this.departments);
   }
 }
 </script>
 <style scoped>
+  .md-toolbar {
+    background: #8BC34A;
+    color: white;
+  }
+  .md-icon {
+    color: white;
+  }
   .md-active {
     background: white;
   }
