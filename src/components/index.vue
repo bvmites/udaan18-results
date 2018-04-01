@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <div class="logo">
+      <img src="https://raw.githubusercontent.com/bvmites/udaan18-website/master/img/udaan_logo_2018.png" alt="udaan_logo">
+    </div>
     <md-card v-for="department in departments" @click.native="changeRoute(department.id)" md-with-hover>
       <md-card-media-cover>
         <md-card-media>
@@ -47,5 +50,8 @@ export default {
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
+  }
+  .logo{
+    padding: 10px;
   }
 </style>
