@@ -1,6 +1,6 @@
 <template>
   <div class="container md-layout">
-    <md-card class="md-primary md-layout-item md-xsmall-size-45" md-with-hover v-for="event in events" @click.native="changeRoute(event.id)">
+    <md-card class="md-primary md-layout-item md-small-size-30 md-xsmall-size-45" md-with-hover v-for="event in events" @click.native="changeRoute(event.id)">
       <md-card-media-cover>
         <md-card-media>
           <img :src="event.imgUrl" alt="Event Image Url">

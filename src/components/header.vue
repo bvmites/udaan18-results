@@ -52,6 +52,7 @@ export default {
     background: #8BC34A;
     color: white;
     position: fixed;
+    height: 55px;
   }
   .md-icon {
     color: white;

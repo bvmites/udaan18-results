@@ -59,13 +59,7 @@ export default {
 </script>
 <style>
   .heading {
-    padding: 20px;
-    font-size: 3em;
-    width: 100%;
-    color: white;
-    word-wrap: break-word;
-    text-align: center;
-    background: #8BC34A;
+
   }
   .wrapper {
     position: absolute;
@@ -73,6 +67,12 @@ export default {
     width: 100%;
   }
   .wrapper .heading {
+    padding: 20px;
+    width: 100%;
+    color: white;
+    word-wrap: break-word;
+    text-align: center;
+    background: #8BC34A;
     position: fixed;
     z-index: 1;
     height: 60px;
