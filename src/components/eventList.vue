@@ -42,5 +42,7 @@ export default {
     display: inline-block;
     background-color: cornflowerblue;
     color: white;
+    min-width: 10%;
+    max-width: 45%;
   }
 </style>

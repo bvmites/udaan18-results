@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="wrapper">
     <div class="heading md-elevation-4">
       {{event}}
     </div>
-    <md-tabs>
+    <md-tabs class="tabs">
       <md-tab v-for="round in eventRounds" :md-label="round.name">
         <result-list :name="round.name" :participants="round.participants"></result-list>
       </md-tab>
@@ -67,7 +67,24 @@ export default {
     text-align: center;
     background: #8BC34A;
   }
-
+  .wrapper {
+    position: absolute;
+    top: 55px;
+    width: 100%;
+  }
+  .wrapper .heading {
+    position: fixed;
+    z-index: 1;
+    height: 60px;
+    font-size: 24px;
+  }
+  .wrapper .tabs{
+    position: absolute;
+    top: 60px;
+  }
+  .md-tabs-navigation {
+    z-index: 0;
+  }
   .md-field {
     border-bottom: 1px solid #000000;
   }

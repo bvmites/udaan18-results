@@ -243,11 +243,6 @@
       "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/guru.png"
     },
     {
-      "name" : "MockStock",
-      "id": "nte08",
-      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/mockstock.png"
-    },
-    {
       "name" : "NFS MW",
       "id": "nte09",
       "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/non-tech/nfs_mw.png"
