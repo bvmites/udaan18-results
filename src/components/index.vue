@@ -3,7 +3,7 @@
     <md-card v-for="department in departments" @click.native="changeRoute(department.id)" md-with-hover>
       <md-card-media-cover>
         <md-card-media>
-          <img src="https://www.artistsnetwork.com/wp-content/uploads/2017/04/abstract-painting-full.jpg">
+          <img :src="department.imgUrl">
         </md-card-media>
         <md-card-area>
           <span class="card-title">{{ department.name }}</span>
