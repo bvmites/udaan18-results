@@ -3,17 +3,23 @@
     <div class="heading md-elevation-4">
       {{event}}
     </div>
-    <md-tabs class="tabs">
-      <md-tab v-for="round in eventRounds" :md-label="round.name">
-        <result-list :name="round.name" :participants="round.participants"></result-list>
-      </md-tab>
-    </md-tabs>
+    <div v-if="loaded" class="empty">
+      <md-empty-state v-if="!rounds"
+                      md-icon="info"
+                      md-label="Results will be announced soon"
+                      md-description="Event consist of only 1 Round. Result of the event will be declared at venue of event"></md-empty-state>
+      <md-tabs v-if="rounds" class="tabs">
+        <md-tab v-for="round in eventRounds" :md-label="round.round">
+          <result-list :participants="round.participants"></result-list>
+        </md-tab>
+      </md-tabs>
+    </div>
   </div>
 </template>
 
 <script>
   import Result from './result'
-  import data from '../data';
+  import data from '../data'
 
 export default {
   components : {
@@ -23,29 +29,19 @@ export default {
     return {
       event: null,
       data: data,
-      eventRounds: [
-        {
-          name: "Round1",
-          participants: [
-            "a", "b", "c", "d", "e"
-          ]
-        },
-        {
-          name: "Round2",
-          participants: [
-            "f", "g", "h", "i", "j"
-          ]
-        },
-        {
-          name: "Round3",
-          participants: [
-            "k", "1", "m", "n", "o"
-          ]
-        }
-      ]
+      loaded: false,
+      rounds: false,
+      eventRounds: []
     }
   },
   created() {
+    this.$http.get("https://udaan18-messenger.herokuapp.com/results/" + this.$route.params.childId).then(function(response) {
+      this.eventRounds = response.data;
+      console.log(this.eventRounds);
+      this.loaded = true;
+      if(this.eventRounds.length > 0)
+        this.rounds = true;
+    });
     const events = data[this.$route.params.parentId];
     for(let i=0; i<events.length;i++){
       console.log(events[i]);
@@ -58,9 +54,6 @@ export default {
 }
 </script>
 <style>
-  .heading {
-
-  }
   .wrapper {
     position: absolute;
     top: 55px;
@@ -81,6 +74,9 @@ export default {
   .wrapper .tabs{
     position: absolute;
     top: 60px;
+  }
+  .md-empty-state {
+    top: 70px;
   }
   .md-tabs-navigation {
     z-index: 0;

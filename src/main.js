@@ -12,9 +12,11 @@ import {
   MdRipple, MdEmptyState, MdTabs
 } from 'vue-material/dist/components'
 import 'vue-material/dist/vue-material.min.css'
+import VueResource from 'vue-resource'
 
 
 Vue.config.productionTip = false;
+Vue.use(VueResource);
 Vue.use(VueMaterial);
 Vue.use(MdButton);
 Vue.use(MdDrawer);

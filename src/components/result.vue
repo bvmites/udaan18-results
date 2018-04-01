@@ -3,7 +3,7 @@
     <md-table v-model="searched" md-card md-fixed-header>
       <md-table-toolbar>
         <div class="md-toolbar-section-start">
-          <h1 class="md-title">{{ name }}</h1>
+          <h1 class="md-title">Total: {{ length }}</h1>
         </div>
         <md-field md-clearable class="md-toolbar-section-end">
           <md-input placeholder="Search Name" v-model="search" @input="searchOnTable" />
@@ -35,12 +35,13 @@ const searchByName = (items, term) => {
 
 export default {
   props: [
-    "participants", "name"
+    "participants"
   ],
   data() {
     return {
       search: null,
-      searched: []
+      searched: [],
+      length: 0
     }
   },
   methods: {
@@ -49,14 +50,16 @@ export default {
     }
   },
   created () {
-    this.searched = this.participants
+    this.searched = this.participants;
+    this.length = this.searched.length;
   }
 }
 </script>
 
 <style scoped>
-  .md-card{
-    max-width: 800px;
+  .md-card {
+    display: grid;
+    max-width: 900px;
     margin: 0 auto;
   }
 
