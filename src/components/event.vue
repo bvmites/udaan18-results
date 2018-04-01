@@ -3,10 +3,11 @@
     <div class="heading md-elevation-4">
       {{event}}
     </div>
-    <div v-if="loaded" class="empty">
+    <div v-if="loaded">
       <md-empty-state v-if="!rounds"
                       md-icon="info"
                       md-label="Results will be announced soon"
+                      class="empty"
                       md-description="Event consist of only 1 Round. Result of the event will be declared at venue of event"></md-empty-state>
       <md-tabs v-if="rounds" class="tabs">
         <md-tab v-for="round in eventRounds" :md-label="round.round">
@@ -75,7 +76,7 @@ export default {
     position: absolute;
     top: 60px;
   }
-  .md-empty-state {
+  .empty{
     top: 70px;
   }
   .md-tabs-navigation {

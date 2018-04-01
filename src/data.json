@@ -38,16 +38,6 @@
   ],
   "cpit": [
     {
-      "name" : "Viewfinder 2018",
-      "id": "5abfd84b80c0ce4af6409ae9",
-      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cultural/viewfinder_2018.png"
-    },
-    {
-      "name" : "Viewfinder 2019",
-      "id": "5ac15376932b5e0be2a676d5",
-      "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cultural/viewfinder_2018.png"
-    },
-    {
     "name": "Hard Wizard",
     "id": "5abfd3d6b1b8e94a74544713",
     "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan18-results/master/src/assets/cpit/hard_wizard.png"

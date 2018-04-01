@@ -9,7 +9,7 @@
 
     <md-drawer :md-active.sync="showNavigation" md-fixed>
       <md-toolbar>
-        <span class="md-title">Departments</span>
+        <span class="md-title">Menu</span>
       </md-toolbar>
 
       <md-list>
@@ -18,6 +18,9 @@
         </md-list-item>
         <md-list-item v-for="department in departments" @click="changeRoute(department.id)">
           <span class="md-list-item-text">{{ department.name }}</span>
+        </md-list-item>
+        <md-list-item @click="toDevelopers">
+          <span class="md-list-item">Developers</span>
         </md-list-item>
       </md-list>
     </md-drawer>
@@ -43,6 +46,9 @@ export default {
     goHome: function() {
       this.showNavigation = false;
       this.$router.push("/");
+    },
+    toDevelopers: function () {
+      window.open("https://udaan18.com/udaan-developers.html");
     }
   }
 }
